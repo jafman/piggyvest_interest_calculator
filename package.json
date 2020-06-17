@@ -1,0 +1,17 @@
+{
+  "name": "piggyvest-interest-calculator",
+  "version": "1.0.0",
+  "description": "Piggyvest Interest Calculator.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon run app.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
