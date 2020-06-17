@@ -12,7 +12,7 @@ const calculateRoute = require('./route/calculate');
 app.use('/v1', calculateRoute);
  
  
-port = 8088
+port = 80
 app.listen(port, function () {
   console.log(`Listening on port ${port}...`)
 })
